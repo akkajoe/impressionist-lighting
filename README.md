@@ -44,7 +44,7 @@ python brightness_metrics.py --root_dir balls/ --out_dir metrics/
 
 ## Coordinate system note
 
-The directions output by ransac_light.py are in DiffusionLight's coordinate system (light-to-surface). Before computing elevation and azimuth for analysis apply this correction:
+The directions output by mul_ransac_fit.py are in DiffusionLight's coordinate system (light-to-surface). Before computing elevation and azimuth for analysis apply this correction:
 
 ```python
 v = -np.array([dir_vx, dir_vy, dir_vz])
