@@ -21,11 +21,11 @@ pip install orjson scikit-image pandas tqdm
 
 ## Scripts
 
-**ball2pointcloud.py** — takes chrome ball images from DiffusionLight-Turbo (inpainting the chrome ball) and exports a 3D point cloud (positions, normals, light directions, luminance) as JSON or gzipped JSON.
+**ball2pointcloud.py**: takes chrome ball images from DiffusionLight-Turbo (inpainting the chrome ball) and exports a 3D point cloud (positions, normals, light directions, luminance) as JSON or gzipped JSON.
 
-**ransac_light.py** — runs weighted multi-hypothesis RANSAC on the point cloud to estimate up to 3 dominant light directions per painting. Outputs results to a CSV.
+**ransac_light.py**: runs weighted multi-hypothesis RANSAC on the point cloud to estimate up to 3 dominant light directions per painting. Outputs results to a CSV.
 
-**brightness_metrics.py** — computes peak-to-mean ratio, brightness concentration, and angular spread from chrome ball images. Outputs per-painting, per-artist, and per-scene CSVs.
+**brightness_metrics.py**: computes peak-to-mean ratio, brightness concentration, and angular spread from chrome ball images. Outputs per-painting, per-artist, and per-scene CSVs.
 
 ## Usage
 
