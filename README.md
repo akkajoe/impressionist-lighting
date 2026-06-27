@@ -58,4 +58,4 @@ Each painting is processed at three exposure values (ev-00, ev-25, ev-50). Rank-
 
 ## Interactive explorer
 
-Available at [URL provided upon acceptance — withheld for anonymous review].
+Available at [URL provided upon acceptance - withheld for anonymous review].
